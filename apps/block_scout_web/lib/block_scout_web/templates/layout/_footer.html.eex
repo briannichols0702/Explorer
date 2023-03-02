@@ -1,0 +1,175 @@
+<footer class="footer">
+  <div class="footer-body container">
+    <div class="footer-social-container">
+      <div class="footer-social-link mr-auto">
+        <a href="https://www.facebook.com/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Facebook") %>'>
+          <svg width="6" height="13" viewBox="0 0 6 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.35849 13H3.96226V6.44348H5.77358L5.9434 4.23913H3.96226C3.96226 4.23913 3.96226 3.3913 3.96226 2.99565C3.96226 2.48696 4.07547 2.26087 4.58491 2.26087C4.98113 2.26087 6 2.26087 6 2.26087V0C6 0 4.5283 0 4.18868 0C2.26415 0 1.35849 0.847826 1.35849 2.48696C1.35849 3.9 1.35849 4.23913 1.35849 4.23913H0V6.44348H1.35849V13Z" fill="#20232C"/>
+          </svg>
+        </a>
+        <!-- <a href="<%= Application.get_env(:block_scout_web, :footer)[:github_link] %>" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
+          <div class="footer-social-icon-container fontawesome-icon github"></div>
+        </a> -->
+        <a href="https://www.twitter.com/blockscoutcom/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
+          <svg width="15" height="11" viewBox="0 0 15 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 9.73333C1.33005 10.5333 2.95567 11 4.72906 11C10.4187 11 13.67 6.66667 13.4483 2.73333C14.0394 2.33333 14.5567 1.86667 15 1.33333C14.4828 1.53333 13.8916 1.73333 13.2266 1.8C13.8916 1.46667 14.335 0.933333 14.5567 0.266667C13.9655 0.6 13.3005 0.8 12.6355 0.933333C12.0443 0.333333 11.2315 0 10.3448 0C8.42365 0 6.94581 1.66667 7.38916 3.4C4.80296 3.26667 2.58621 2.2 1.03448 0.533333C0.221675 1.73333 0.591133 3.4 1.99507 4.2C1.47783 4.2 1.03448 4.06667 0.591133 3.86667C0.591133 5.13333 1.55172 6.33333 3.02956 6.6C2.58621 6.73333 2.14286 6.73333 1.62562 6.66667C1.99507 7.8 3.17734 8.6 4.50739 8.6C3.25123 9.53333 1.62562 9.93333 0 9.73333Z" fill="#20232C"/>
+            </svg>
+        </a>
+        <a href="https://t.me/poa_network" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.319582 6.75252L4.04804 8.14157L5.4329 12.7361C5.53942 13.0567 5.859 13.1635 6.07206 12.9498L8.09608 11.2402C8.30913 11.0265 8.62872 11.0265 8.84177 11.2402L12.5702 13.9115C12.7833 14.1252 13.2094 13.9115 13.2094 13.6978L15.9791 0.55521C16.0856 0.234659 15.7661 -0.0858913 15.4465 0.0209589L0.319582 5.89772C-0.106527 6.00457 -0.106527 6.53882 0.319582 6.75252ZM5.21984 7.39362L12.4637 2.90591C12.5702 2.79906 12.6768 3.01276 12.5702 3.11961L6.6047 8.67582C6.39164 8.88952 6.28511 9.10322 6.17859 9.42377L5.96553 10.9197C5.96553 11.1334 5.64595 11.1334 5.64595 10.9197L4.90026 8.14157C4.79373 7.92787 4.90026 7.50047 5.21984 7.39362Z" fill="#20232C"/>
+          </svg>
+        </a>
+        <a href="https://www.youtube.com/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
+          <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.6817 1.95224C15.5238 1.18216 14.9449 0.632093 14.2608 0.412068C13.0505 0.0820312 7.9987 0.0820312 7.9987 0.0820312C7.9987 0.0820312 2.99951 0.0820312 1.73656 0.412068C1.05246 0.632093 0.52623 1.18216 0.315738 1.95224C0 3.21738 0 5.96769 0 5.96769C0 5.96769 0 8.718 0.315738 10.0382C0.52623 10.7532 1.05246 11.3583 1.73656 11.5233C2.99951 11.8534 7.9987 11.8534 7.9987 11.8534C7.9987 11.8534 12.9979 11.8534 14.2608 11.5233C14.9449 11.3033 15.4712 10.7532 15.6817 10.0382C15.9974 8.718 15.9974 5.96769 15.9974 5.96769C15.9974 5.96769 16.05 3.21738 15.6817 1.95224Z" fill="#20232C"/>
+            <path d="M6.36749 8.49824V3.49268L10.5773 5.96796L6.36749 8.49824Z" fill="#E4E4E4"/>
+          </svg>
+        </a>
+      </div>
+      <a href="#" class="btn-back-to-top" id="btn_back_to_top">
+        <svg width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1 9L6 4L11 9" stroke="#20232C"/>
+          <path d="M6 15V4.5" stroke="#20232C"/>
+          <path d="M0 1H12" stroke="#20232C"/>
+        </svg>
+        <%= gettext("Back to Top") %>
+      </a>
+    </div>
+    <!-- Logo -->
+    <div class="row footer-logo-row">
+      <div class="col-lg-4">
+        <%= link to: webapp_url(@conn), class: "footer-brand" do %>
+          <%= if logo_footer() do %>
+            <img class="footer-logo" src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" />
+          <% end %>
+          <%= if logo_text() do %>
+            <span class="logo-text in-footer <%= unless logo_footer(), do: "no-logo" %>"> <%= logo_text() %> </span>
+          <% end %>
+        <% end %>
+        <h3 class="footer-info-text font-20"><%= gettext("Powered by BeanEco SmartChain") %></h3>
+        <p class="footer-info-text"><%= gettext("BeanEco SmartChain is a Block Explorer and Analytics Platform for BESC, a decentralized smart contracts platform.") %></p>
+      </div>
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-md-4">
+            <h4 class="footer-list-title"><%= gettext("Company") %></h4>
+            <ul class="footer-list-link">
+              <li><a href="#"><%= gettext("About Us") %></a></li>
+              <li><a href="#"><%= gettext("Brand Assets") %></a></li>
+              <li><a href="#"><%= gettext("Contacts Us") %></a></li>
+              <li><a href="#"><%= gettext("Careers") %></a></li>
+              <li><a href="#"><%= gettext("Terms of Service") %></a></li>
+              <li><a href="#"><%= gettext("Bug Bounty") %></a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="footer-list-title"><%= gettext("Community") %></h4>
+            <ul class="footer-list-link">
+              <li><a href="#"><%= gettext("API Documentation") %></a></li>
+              <li><a href="#"><%= gettext("Knowledge Base") %></a></li>
+              <li><a href="#"><%= gettext("Network Status") %></a></li>
+              <li><a href="#"><%= gettext("Newsletters") %></a></li>
+              <li><a href="#"><%= gettext("Disqus Comments") %></a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="footer-list-title"><%= gettext("Products & Services") %></h4>
+            <ul class="footer-list-link">
+              <li><a href="#"><%= gettext("Advertise") %></a></li>
+              <li><a href="#"><%= gettext("Explorer-as-a Service (EaaS)") %></a></li>
+              <li><a href="#"><%= gettext("API Plans") %></a></li>
+              <li><a href="#"><%= gettext("Priority Support") %></a></li>
+              <li><a href="#"><%= gettext("Blockscan") %></a></li>
+              <li><a href="#"><%= gettext("Blockscan Chat") %></a></li>
+              <%= render BlockScoutWeb.LayoutView, "_add_chain_to_mm.html" %>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-container">
+      <div class="text-copyright mr-auto"><%= gettext("BeanEco SmartChain © 2023") %></div>
+      <div class="text-donate">
+        <%= gettext("Donations: ") %><span class="text-blue"><%= gettext("") %></span>
+      </div>
+    </div>
+
+    <!-- <% other_explorers = other_explorers() %>
+    <% col_size = if Enum.empty?(other_explorers), do: 3, else: 2 %>
+
+    <div class="row">
+      <div class="col-xs-12 col-lg-3">
+        <div class="footer-social-icons">
+          <a href="<%= Application.get_env(:block_scout_web, :footer)[:github_link] %>" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Github") %>'>
+            <div class="footer-social-icon-container fontawesome-icon github"></div>
+          </a>
+          <a href="https://www.twitter.com/blockscoutcom/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
+            <div class="footer-social-icon-container fontawesome-icon twitter"></div>
+          </a>
+          <a href="https://t.me/poa_network" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
+            <div class="footer-social-icon-container fontawesome-icon telegram"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
+        <h3>BlockScout</h3>
+        <ul>
+          <li><a href="<%= issue_link(@conn) %>" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Submit an Issue") %></a></li>
+          <li><a href="<%= Application.get_env(:block_scout_web, :footer)[:github_link] %>" rel="noreferrer" class="footer-link"><%= gettext("Contribute") %></a></li>
+          <li><a href="<%= Application.get_env(:block_scout_web, :footer)[:chat_link] %>" rel="noreferrer" class="footer-link"><%= gettext("Chat (#blockscout)") %></a></li>
+          <%= if Application.get_env(:block_scout_web, :footer)[:enable_forum_link] do %>
+            <li><a href="<%= Application.get_env(:block_scout_web, :footer)[:forum_link] %>" rel="noreferrer" class="footer-link"><%= gettext("Forum") %></a></li>
+          <% end %>
+          <%= render BlockScoutWeb.LayoutView, "_add_chain_to_mm.html" %>
+        </ul>
+      </div>
+      <% main_nets = main_nets(other_networks()) %>
+
+      <%= unless Enum.empty?(main_nets) do %>
+        <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
+          <h3><%= gettext("Main Networks") %></h3>
+          <ul>
+            <%= for %{title: title, url: url} <- main_nets do %>
+              <li><a href="<%= url %>" rel="norefferer" class="footer-link"> <%= title %> </a></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <% test_nets = test_nets(other_networks()) %>
+
+      <%= unless Enum.empty?(test_nets) do %>
+        <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
+          <h3><%= gettext("Test Networks") %></h3>
+          <ul>
+            <%= for %{title: title, url: url} <- test_nets do %>
+              <li><a href="<%= url %>" rel="noreferrer" class="footer-link"> <%= title %> </a></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+
+      <%= unless Enum.empty?(other_explorers) do %>
+        <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
+          <h3><%= gettext("Other Explorers") %></h3>
+          <ul>
+            <%= for {name, url} <- other_explorers do %>
+              <li><a href="<%= url %>" rel="noreferrer" class="footer-link"> <%= name %> </a></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+
+    <% version = version() %>
+
+    <%= unless ignore_version?(version) do %>
+      <% release_link = release_link(version) %>
+      <div>
+        <%= gettext("Version") %>: <%= release_link %>
+      </div>
+    <% end %> -->
+  </div>
+</footer>
